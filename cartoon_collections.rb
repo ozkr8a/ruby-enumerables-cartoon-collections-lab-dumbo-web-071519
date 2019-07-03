@@ -23,13 +23,15 @@ end
 
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  cheese_types = 
+  
   cheese = ""
   array.each do |queso|
-    if queso.include?(cheese_types)
+    if cheese_types.include?(queso)
       cheese = queso
       return queso
-    else return NIL
+    else 
+      return NIL
     end
   end
 end
