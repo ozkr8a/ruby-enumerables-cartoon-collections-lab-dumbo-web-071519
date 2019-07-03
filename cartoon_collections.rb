@@ -28,4 +28,5 @@ def find_the_cheese(array)# code an argument here
     if queseo.include?(cheese_types)
       return queso
   end
+  NIL
 end
