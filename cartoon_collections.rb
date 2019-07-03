@@ -30,8 +30,6 @@ def find_the_cheese(array)# code an argument here
     if queso.include?(array)
       cheese = queso
       return queso
-    else 
-      return nil
     end
   end
 end
