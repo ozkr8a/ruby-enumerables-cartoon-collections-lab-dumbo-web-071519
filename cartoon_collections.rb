@@ -10,13 +10,15 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
+  long = false
   array.each do |call|
     if call.length <= 4
-      return false
+      long = false
     else
       return true
     end
   end
+  long
 end
 
 def find_the_cheese# code an argument here
