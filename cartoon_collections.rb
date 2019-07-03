@@ -27,7 +27,7 @@ def find_the_cheese(array)# code an argument here
   
   cheese = ""
   cheese_types.each do |queso|
-    if queso.include?(array)
+    if array.include?(queso)
       cheese = queso
       return queso
     end
