@@ -31,6 +31,8 @@ def find_the_cheese(array)# code an argument here
       cheese = queso
       return queso
     end
-    queso = nil
+    
   end
+  
+  queso = nil
 end
