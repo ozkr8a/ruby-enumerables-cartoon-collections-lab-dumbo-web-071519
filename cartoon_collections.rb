@@ -30,5 +30,6 @@ def find_the_cheese(array)# code an argument here
       cheese = queso
       return queso
     else return NIL
+    end
   end
 end
